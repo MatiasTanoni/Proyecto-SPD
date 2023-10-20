@@ -1,11 +1,33 @@
-# PrimerParcialSPD
+Documentacion
 
-INTEGRANTES:
+Integrantes
 
-Matias Tanoni
+- Smania Matias
+- Pokoik Lucia
+- Tanoni Matias
+- Solis del Castillo Mauricio
 
-Matias Smania
+Proyecto: Primer Parcial SPD
 
-Solis del Castillo Mauricio
+----------------------------
+IMAGEN
+----------------------------
 
-Pokoik Lucia
+Descripcion del proyecto
+
+El proyecto consta de tres partes.
+
+Descripcion de los componentes
+
+-
+  
+- 
+
+- 
+
+LINK AL PROYECTO
+
+LINK AL VIDEO DEL PROCESO
+
+
+
