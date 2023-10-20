@@ -1,7 +1,6 @@
 # PrimerParcialSPD
-
-Integrantes:
+INTEGRANTES:
 Matias Tanoni
 Matias Smania
-Lucia Pokoik
-Solis Del Castillo Mauricio
+Solis del Castillo Mauricio
+Pokoik Lucia
