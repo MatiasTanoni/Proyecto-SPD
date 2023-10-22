@@ -1,0 +1,286 @@
+// C++ code
+// Matias Tanoni 1°D | Parte 3 Parcial
+
+#define A 10
+#define B 11
+#define C 5
+#define D 6
+#define E 7
+#define F 9
+#define G 8
+
+#define PULSADOR_SUBE 3
+#define PULSADOR_BAJA 2
+#define DESLIZANTE 4
+
+#define TEMPERATURA A0
+#define MOTOR A1
+#define FOTODIODO A3
+
+#define UNIDAD A5 
+#define DECENA A4 
+
+#define APAGADOS 0
+#define TIMEDISPLAYON 5
+
+int contadorDigito = 0;
+int sube = 1;
+int subePrevia = 1;
+int baja = 1;
+int bajaPrevia = 1;
+int numeroPrimo =0;
+float temperatura = 0;
+int fotodiodo = 0;
+
+void setup()
+{
+  pinMode(PULSADOR_BAJA, INPUT_PULLUP);
+  pinMode(PULSADOR_SUBE, INPUT_PULLUP);
+  pinMode(DESLIZANTE, INPUT);
+  pinMode(FOTODIODO, INPUT);
+  pinMode(C, OUTPUT);
+  pinMode(D, OUTPUT);
+  pinMode(E, OUTPUT);
+  pinMode(G, OUTPUT);
+  pinMode(F, OUTPUT);
+  pinMode(A, OUTPUT);
+  pinMode(B, OUTPUT);
+  pinMode(UNIDAD, OUTPUT);
+  pinMode(DECENA, OUTPUT);
+  digitalWrite(UNIDAD, 0);
+  digitalWrite(DECENA, 0);
+  imprimirDigito(0);
+  Serial.begin(9600);
+}
+
+void loop()
+{	
+  	temperatura = map(analogRead(TEMPERATURA),0,1023,-50,450);
+  	motorEncenderApagar(temperatura);
+  
+  	int boton = botonPresionado();
+    if (boton == PULSADOR_SUBE)
+    {
+      contadorDigito++;
+      if (contadorDigito > 99)
+        contadorDigito = 0;
+    }
+    else if (boton == PULSADOR_BAJA)
+    {
+      contadorDigito--;
+      if (contadorDigito < 0)
+        contadorDigito = 99;
+    }
+  
+  int deslizante = digitalRead(DESLIZANTE);
+  if (deslizante == 0)
+  {
+    MostrarNumerosPrimos(contadorDigito);
+  }
+  else
+  {
+    imprimirCuenta(contadorDigito); 
+  }
+}
+
+int botonPresionado(void)
+{ 
+  sube = digitalRead(PULSADOR_SUBE);
+  baja = digitalRead(PULSADOR_BAJA);
+  int deslizante = digitalRead(DESLIZANTE);
+
+  if (sube)
+    subePrevia = 1;
+  if (baja)
+    bajaPrevia = 1;
+
+  if (sube == 0 && sube != subePrevia)
+  {
+    subePrevia = sube;
+    return PULSADOR_SUBE;
+  }
+
+  if (baja == 0 && baja != bajaPrevia)
+  {
+    bajaPrevia = baja;
+    return PULSADOR_BAJA;
+  }
+
+  if (deslizante == 0)
+  {
+    return DESLIZANTE;
+  }
+
+  return 0;
+}
+
+void prendeDigito(int digito)
+{	
+  fotodiodo = analogRead(FOTODIODO);
+  
+  if (digito == UNIDAD && fotodiodo > 10)
+  {
+    digitalWrite(UNIDAD, HIGH); 
+    digitalWrite(DECENA, LOW);
+    delay(TIMEDISPLAYON);
+  }
+  else if (digito == DECENA && fotodiodo > 10)
+  {
+    digitalWrite(UNIDAD, LOW);
+    digitalWrite(DECENA, HIGH);
+    delay(TIMEDISPLAYON);
+  }
+  else
+  {
+    digitalWrite(UNIDAD, HIGH);
+    digitalWrite(DECENA, HIGH);
+  }
+}
+
+
+void imprimirCuenta(int cuenta)
+{	
+  prendeDigito(APAGADOS);
+
+  imprimirDigito(cuenta / 10);
+
+  prendeDigito(DECENA);
+  prendeDigito(APAGADOS);
+
+  imprimirDigito(cuenta - 10 * ((int)cuenta / 10));
+
+  prendeDigito(UNIDAD);
+}
+
+bool validarNumeroPrimo(int numero)
+{
+  int contador = 0;
+  for(int i = 1; i <= numero; i++)
+  {
+    if (numero % i == 0)
+    {
+      contador++;
+    }
+  }
+
+  if (contador == 2)
+  {
+    return true;
+  }
+  else
+  {
+    return false;
+  }
+
+}
+
+void MostrarNumerosPrimos(int contadorDigito)
+{ 
+  bool validacion = validarNumeroPrimo(contadorDigito);
+
+  if (validacion == true)
+  {	
+    numeroPrimo = contadorDigito; 
+    imprimirCuenta(contadorDigito);
+  }
+  else
+  {
+   imprimirCuenta(numeroPrimo); 
+  }
+}
+
+void imprimirDigito(int digito)
+{
+  digitalWrite(A, LOW);
+  digitalWrite(B, LOW);
+  digitalWrite(C, LOW);
+  digitalWrite(D, LOW);
+  digitalWrite(E, LOW);
+  digitalWrite(F, LOW);
+  digitalWrite(G, LOW);
+
+  switch (digito)
+  {
+  case 1:
+    digitalWrite(B, HIGH);
+    digitalWrite(C, HIGH);
+    break;
+  case 2:
+    digitalWrite(A, HIGH);
+    digitalWrite(B, HIGH);
+    digitalWrite(D, HIGH);
+    digitalWrite(E, HIGH);
+    digitalWrite(G, HIGH);
+    break;
+  case 3:
+    digitalWrite(A, HIGH);
+    digitalWrite(B, HIGH);
+    digitalWrite(C, HIGH);
+    digitalWrite(D, HIGH);
+    digitalWrite(G, HIGH);
+    break;
+  case 4:
+    digitalWrite(B, HIGH);
+    digitalWrite(C, HIGH);
+    digitalWrite(F, HIGH);
+    digitalWrite(G, HIGH);
+    break;
+  case 5:
+    digitalWrite(A, HIGH);
+    digitalWrite(C, HIGH);
+    digitalWrite(D, HIGH);
+    digitalWrite(F, HIGH);
+    digitalWrite(G, HIGH);
+    break;
+  case 6:
+    digitalWrite(A, HIGH);
+    digitalWrite(C, HIGH);
+    digitalWrite(D, HIGH);
+    digitalWrite(E, HIGH);
+    digitalWrite(F, HIGH);
+    digitalWrite(G, HIGH);
+    break;
+  case 7:
+    digitalWrite(A, HIGH);
+    digitalWrite(B, HIGH);
+    digitalWrite(C, HIGH);
+    break;
+  case 8:
+    digitalWrite(A, HIGH);
+    digitalWrite(B, HIGH);
+    digitalWrite(C, HIGH);
+    digitalWrite(D, HIGH);
+    digitalWrite(E, HIGH);
+    digitalWrite(F, HIGH);
+    digitalWrite(G, HIGH);
+    break;
+  case 9:
+    digitalWrite(A, HIGH);
+    digitalWrite(B, HIGH);
+    digitalWrite(C, HIGH);
+    digitalWrite(D, HIGH);
+    digitalWrite(F, HIGH);
+    digitalWrite(G, HIGH);
+    break;
+  case 0:
+    digitalWrite(A, HIGH);
+    digitalWrite(B, HIGH);
+    digitalWrite(C, HIGH);
+    digitalWrite(D, HIGH);
+    digitalWrite(E, HIGH);
+    digitalWrite(F, HIGH);
+    break;
+  }
+}
+
+void motorEncenderApagar(float temperatura)
+{
+   if (temperatura >= 10 && temperatura <= 50)
+  {
+   digitalWrite(MOTOR, HIGH); 
+  }
+  else
+  {
+   digitalWrite(MOTOR, LOW); 
+  }
+}
