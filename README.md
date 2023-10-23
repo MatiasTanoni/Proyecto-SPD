@@ -12,7 +12,8 @@ Proyecto: Primer Parcial SPD
 ----------------------------
 IMAGEN
 
-1era Parte Parcial: ![](https://github.com/MatiasTanoni/PrimerParcialSPD/blob/main/imagenes/1era%20Parte.png)
+1era Parte Parcial: 
+![](https://github.com/MatiasTanoni/PrimerParcialSPD/blob/main/imagenes/1era%20Parte.png)
 
 
 2da Parte Parcial:
