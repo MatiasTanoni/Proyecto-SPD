@@ -28,17 +28,26 @@ IMAGEN
 
 ----------------------------
 
-Descripcion del proyecto
+Descripcion del proyecto:
 
 El proyecto consta de tres partes.
 
-Descripcion de los componentes
+-----------------------------
+DESCRIPCION DE LOS COMPONENTES:
 
--
+- Motor de CC: Es un componente que involucran movimiento mecánico controlado eléctricamente.
+
+- Sensor de Temperatura: Es un dispositivo que proporciona una salida analógica proporcional a la temperatura.
+
+- Resistencia: Limitan el flujo de corriente eléctrica en un circuito y se utilizan para controlar la cantidad de corriente que fluye a través de una parte específica del circuito.
+
+- Displays 7 Sementos: Es utilizado para mostrar dígitos numéricos mediante la activación y desactivación de sus segmentos individuales.
+
+- Pulsador: Se utiliza para emular el comportamiento de un botón físico, enviando una señal eléctrica momentánea cuando se presiona.
   
-- 
+- Interruptor Deslizante: Se utiliza para controlar el flujo de corriente en un circuito al simular el movimiento de un interruptor físico.
 
-- 
+- Fotodiodo: Es un componente que simula un dispositivo semiconductor sensible a la luz. Convierte la luz en corriente eléctrica mediante la generación de pares electrón-hueco.
 ---------------------------
 LINK A LOS PROYECTOS:
 
