@@ -10,7 +10,7 @@ Integrantes Del Grupo N°10 De Trabajo:
 Proyecto: Primer Parcial SPD
 
 ----------------------------
-IMAGEN
+IMAGENES:
 
 1era Parte Parcial: 
 
@@ -49,7 +49,7 @@ DESCRIPCION DE LOS COMPONENTES:
 
 - Fotodiodo: Es un componente que simula un dispositivo semiconductor sensible a la luz. Convierte la luz en corriente eléctrica mediante la generación de pares electrón-hueco.
 ---------------------------
-LINK A LOS PROYECTOS:
+🤖 LINK A LOS PROYECTOS:
 
 1era Parte: https://www.tinkercad.com/things/bbZrFXgi7Lo-matias-tanoni-1d-parte-1-parcial/editel
 
@@ -58,7 +58,7 @@ LINK A LOS PROYECTOS:
 3era Parte: https://www.tinkercad.com/things/5fvReocOa6k-copy-of-matias-tanoni-1d-parte-3-parcial/editel
 
 --------------------------
-LINK A LOS VIDEOS DE LAS DIFERENTES PARTES DEL PARCIAL
+📺 LINK A LOS VIDEOS DE LAS DIFERENTES PARTES DEL PARCIAL
 
 1era Parte: https://www.youtube.com/watch?v=5ZNrPXDqcj0
 
