@@ -60,10 +60,10 @@ LINK A LOS PROYECTOS:
 --------------------------
 LINK A LOS VIDEOS DE LAS DIFERENTES PARTES DEL PARCIAL
 
-1era Parte: https://youtu.be/_n-1Z1f9EQo
+1era Parte: https://www.youtube.com/watch?v=5ZNrPXDqcj0
 
-2da Parte: https://youtu.be/qFVbgT4jYhk
+2da Parte: https://www.youtube.com/watch?v=E6Gf4MAvWk4
 
-3era Parte: https://youtu.be/Ba_OdQTSxvE
+3era Parte: https://www.youtube.com/watch?v=nz_VWNM99RQ
 
 -------------------------
