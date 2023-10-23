@@ -30,8 +30,9 @@ IMÁGENES:
 
 DESCRIPCIÓN DEL PROYECTO:
 
-El proyecto consta de tres partes.
-
+En la primera parte consta de un contador que va del 0 al 99, que tiene tres pulsadores (uno que aumenta, uno que disminuye y otro resetea el contador) en dos displays 7 segmentos.
+En la segunda parte intercambie el pulsador que reseteaba por un interruptor deslizante que da la opcion de elegir de mostrar el contador o solamente los numeros primos. También agregue un sensor de temperatura y un motor cc, cuando el sensor de temperatura marca una cierta temperatura se enciende el motor cc.
+En la tercera y ultima parte del proyecto, agregue un fotodiodo que dependiendo la cantidad de luz que tenga se prende o apaga los displays 7 segmentos.
 -----------------------------
 DESCRIPCIÓN DE LOS COMPONENTES:
 
