@@ -1,4 +1,4 @@
-Documentacion
+Documentacion:
 
 Integrantes
 
@@ -24,7 +24,7 @@ IMAGEN
 
 3era Parte parcial:
 
-![]()
+![](https://github.com/MatiasTanoni/PrimerParcialSPD/blob/main/imagenes/3era%20Parte.png)
 
 ----------------------------
 
