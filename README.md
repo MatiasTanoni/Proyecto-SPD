@@ -19,8 +19,12 @@ IMAGEN
 
 2da Parte Parcial:
 
+![]()
+
 
 3era Parte parcial:
+
+![]()
 
 ----------------------------
 
