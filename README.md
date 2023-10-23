@@ -1,4 +1,4 @@
-Documentacion:
+Documentación:
 
 Integrantes Del Grupo N°10 De Trabajo:
 
@@ -10,7 +10,7 @@ Integrantes Del Grupo N°10 De Trabajo:
 ----------------------------
 PROYECTO: PRIMER PARCIAL SPD
 
-IMAGENES:
+IMÁGENES:
 
 1era Parte Parcial: 
 
@@ -28,12 +28,12 @@ IMAGENES:
 
 ----------------------------
 
-Descripcion del proyecto:
+DESCRIPCIÓN DEL PROYECTO:
 
 El proyecto consta de tres partes.
 
 -----------------------------
-DESCRIPCION DE LOS COMPONENTES:
+DESCRIPCIÓN DE LOS COMPONENTES:
 
 - Motor de CC: Es un componente que involucran movimiento mecánico controlado eléctricamente.
 
