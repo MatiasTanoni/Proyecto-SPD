@@ -39,10 +39,14 @@ Descripcion de los componentes
 - 
 
 - 
-
-LINK AL PROYECTO
-
+---------------------------
+LINK A LOS PROYECTOS:
+1era Parte: https://www.tinkercad.com/things/bbZrFXgi7Lo-matias-tanoni-1d-parte-1-parcial/editel
+2da Parte: https://www.tinkercad.com/things/eyE6CRgHTJE-matias-tanoni-1d-parte-2-parcial/editel
+3era Parte: https://www.tinkercad.com/things/5fvReocOa6k-copy-of-matias-tanoni-1d-parte-3-parcial/editel
+--------------------------
 LINK AL VIDEO DEL PROCESO
-
-
-
+1era Parte: https://youtu.be/_n-1Z1f9EQo
+2da Parte: https://youtu.be/qFVbgT4jYhk
+3era Parte: https://youtu.be/Ba_OdQTSxvE
+-------------------------
