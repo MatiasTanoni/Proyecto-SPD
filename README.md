@@ -59,6 +59,8 @@ DESCRIPCIÓN DE LOS COMPONENTES:
 
 3era Parte: https://www.tinkercad.com/things/5fvReocOa6k-copy-of-matias-tanoni-1d-parte-3-parcial/editel
 
+4ta Parte: https://www.tinkercad.com/things/lL1V9umYHGO-matias-tanoni-1d-parte-4-parcial/editel
+
 --------------------------
 📺 LINK A LOS VIDEOS DE LAS DIFERENTES PARTES DEL PARCIAL
 
