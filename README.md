@@ -7,9 +7,9 @@ Integrantes Del Grupo N°10 De Trabajo:
 - Tanoni Matias
 - Solis del Castillo Mauricio
 
-Proyecto: Primer Parcial SPD
-
 ----------------------------
+PROYECTO: PRIMER PARCIAL SPD
+
 IMAGENES:
 
 1era Parte Parcial: 
