@@ -54,11 +54,11 @@ DESCRIPCIÓN DE LOS COMPONENTES:
 ---------------------------
 🤖 LINK A LOS PROYECTOS:
 
-1era Parte: https://www.tinkercad.com/things/bbZrFXgi7Lo-matias-tanoni-1d-parte-1-parcial/editel
+1era Parte: https://www.tinkercad.com/things/bbZrFXgi7Lo-matias-tanoni-1d-parte-1-parcial/editel?sharecode=V80fccr8c5DP82SSXZvX5tdyvOeXVXVcOUxveAeSA5A
 
-2da Parte: https://www.tinkercad.com/things/eyE6CRgHTJE-matias-tanoni-1d-parte-2-parcial/editel
+2da Parte: https://www.tinkercad.com/things/eyE6CRgHTJE-matias-tanoni-1d-parte-2-parcial/editel?sharecode=kpPTxht40r6hc924CNd3X-k2y4J-z5KBuioDY_puVNU
 
-3era Parte: https://www.tinkercad.com/things/5fvReocOa6k-copy-of-matias-tanoni-1d-parte-3-parcial/editel
+3era Parte: https://www.tinkercad.com/things/5fvReocOa6k-matias-tanoni-1d-parte-3-parcial/editel?sharecode=QLGM8N8Sv3VEQ0s3U4TujPfTb4Y-FcicvIK6TUJFKUs
 
 4ta Parte: https://www.tinkercad.com/things/lL1V9umYHGO-matias-tanoni-1d-parte-4-parcial/editel?sharecode=x3H0Y4DRP5IjvrgUt7oztCZ8lYuG4HNFawLsy_u-2LM
 
