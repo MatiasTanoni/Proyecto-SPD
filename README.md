@@ -1,6 +1,6 @@
 Documentacion:
 
-Integrantes
+Integrantes Del Grupo N°10 De Trabajo:
 
 - Smania Matias
 - Pokoik Lucia
@@ -49,7 +49,7 @@ LINK A LOS PROYECTOS:
 3era Parte: https://www.tinkercad.com/things/5fvReocOa6k-copy-of-matias-tanoni-1d-parte-3-parcial/editel
 
 --------------------------
-LINK AL VIDEO DEL PROCESO
+LINK A LOS VIDEOS DE LAS DIFERENTES PARTES DEL PARCIAL
 
 1era Parte: https://youtu.be/_n-1Z1f9EQo
 
