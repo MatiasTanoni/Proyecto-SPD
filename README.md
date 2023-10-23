@@ -47,6 +47,7 @@ LINK A LOS PROYECTOS:
 2da Parte: https://www.tinkercad.com/things/eyE6CRgHTJE-matias-tanoni-1d-parte-2-parcial/editel
 
 3era Parte: https://www.tinkercad.com/things/5fvReocOa6k-copy-of-matias-tanoni-1d-parte-3-parcial/editel
+
 --------------------------
 LINK AL VIDEO DEL PROCESO
 
@@ -55,4 +56,5 @@ LINK AL VIDEO DEL PROCESO
 2da Parte: https://youtu.be/qFVbgT4jYhk
 
 3era Parte: https://youtu.be/Ba_OdQTSxvE
+
 -------------------------
