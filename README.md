@@ -11,6 +11,7 @@ Proyecto: Primer Parcial SPD
 
 ----------------------------
 IMAGEN
+
 1era Parte Parcial:
 
 
@@ -18,6 +19,7 @@ IMAGEN
 
 
 3era Parte parcial:
+
 ----------------------------
 
 Descripcion del proyecto
