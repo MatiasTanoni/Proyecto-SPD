@@ -19,7 +19,7 @@ IMAGEN
 
 2da Parte Parcial:
 
-![]()
+![](https://github.com/MatiasTanoni/PrimerParcialSPD/blob/main/imagenes/2da%20Parte.png)
 
 
 3era Parte parcial:
