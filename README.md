@@ -26,6 +26,7 @@ IMÁGENES:
 
 ![](https://github.com/MatiasTanoni/PrimerParcialSPD/blob/main/imagenes/3era%20Parte.png)
 
+
 ----------------------------
 
 DESCRIPCIÓN DEL PROYECTO:
@@ -59,7 +60,7 @@ DESCRIPCIÓN DE LOS COMPONENTES:
 
 3era Parte: https://www.tinkercad.com/things/5fvReocOa6k-copy-of-matias-tanoni-1d-parte-3-parcial/editel
 
-4ta Parte: https://www.tinkercad.com/things/lL1V9umYHGO-matias-tanoni-1d-parte-4-parcial/editel
+4ta Parte: 
 
 --------------------------
 📺 LINK A LOS VIDEOS DE LAS DIFERENTES PARTES DEL PARCIAL
@@ -69,5 +70,7 @@ DESCRIPCIÓN DE LOS COMPONENTES:
 2da Parte: https://www.youtube.com/watch?v=E6Gf4MAvWk4
 
 3era Parte: https://www.youtube.com/watch?v=nz_VWNM99RQ
+
+4ta parte : https://www.tinkercad.com/things/lL1V9umYHGO-matias-tanoni-1d-parte-4-parcial/editel?sharecode=x3H0Y4DRP5IjvrgUt7oztCZ8lYuG4HNFawLsy_u-2LM
 
 -------------------------
