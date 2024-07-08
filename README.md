@@ -13,17 +13,17 @@
 
 IMÁGENES 🌠:
 
-1era Parte Parcial: 
+*1era Parte Parcial:* 
 
 ![](https://github.com/MatiasTanoni/PrimerParcialSPD/blob/main/imagenes/1era%20Parte.png)
 
 
-2da Parte Parcial:
+*2da Parte Parcial:*
 
 ![](https://github.com/MatiasTanoni/PrimerParcialSPD/blob/main/imagenes/2da%20Parte.png)
 
 
-3era Parte parcial:
+*3era Parte parcial:*
 
 ![](https://github.com/MatiasTanoni/PrimerParcialSPD/blob/main/imagenes/3era%20Parte.png)
 
