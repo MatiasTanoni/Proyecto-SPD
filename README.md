@@ -1,4 +1,4 @@
-# 1er PARCIAL SPD
+# 1er Parcial SPD
 
 
 **Integrantes Del Grupo N°10 De Trabajo 👨‍👨‍👦‍👦**
